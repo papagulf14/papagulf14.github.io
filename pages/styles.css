@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f06, #48f);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.intro p {
+    font-size: 1.5em;
+}
+
+.gifs {
+    margin: 50px 0;
+}
+
+.gifs img {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.code-link p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.code-link a {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.code-link a:hover {
+    background-color: #ffcc00;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 0.8em;
+}
